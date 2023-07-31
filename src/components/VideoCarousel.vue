@@ -88,7 +88,7 @@ type Movie = {
   </div>
 </template>
 
-<style scoped>
+<style >
   .carousel__prev,
   .carousel__next,
   .carousel__prev:hover,

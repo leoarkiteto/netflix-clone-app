@@ -38,7 +38,8 @@
 
       <!-- Icons Menu -->
       <div>
-        <div class="mx-10 my-6 py-2">
+        <div
+          class="mx-10 my-6 border-b-4 border-b-transparent py-2 transition hover:border-b-red-500">
           <Magnify
             :size="40"
             class="cursor-pointer"
@@ -50,25 +51,29 @@
             class="cursor-pointer"
             fill-color="#fff" />
         </div>
-        <div class="mx-10 my-6 py-2">
+        <div
+          class="mx-10 my-6 border-b-4 border-b-transparent py-2 transition hover:border-b-red-500">
           <TrendingUp
             :size="40"
             class="cursor-pointer"
             fill-color="#fff" />
         </div>
-        <div class="mx-10 my-6 py-2">
+        <div
+          class="mx-10 my-6 border-b-4 border-b-transparent py-2 transition hover:border-b-red-500">
           <Television
             :size="40"
             class="cursor-pointer"
             fill-color="#fff" />
         </div>
-        <div class="mx-10 my-6 py-2">
+        <div
+          class="mx-10 my-6 border-b-4 border-b-transparent py-2 transition hover:border-b-red-500">
           <MovieOutline
             :size="40"
             class="cursor-pointer"
             fill-color="#fff" />
         </div>
-        <div class="mx-10 my-6 py-2">
+        <div
+          class="mx-10 my-6 border-b-4 border-b-transparent py-2 transition hover:border-b-red-500">
           <Plus
             :size="40"
             class="cursor-pointer"
