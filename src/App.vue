@@ -91,7 +91,12 @@
           :src="`/movies/${movie.name}.mp4`"
           autoplay
           class="absolute right-0 top-0 z-0 h-[600px]"
-          loop></video>
+          loop>
+          <track
+            default
+            kind="captions"
+            src="/" />
+        </video>
       </div>
 
       <div
@@ -130,7 +135,12 @@
         autoplay
         class="object-fit absolute z-0 h-full w-screen"
         controls
-        loop></video>
+        loop>
+        <track
+          default
+          kind="captions"
+          src="/" />
+      </video>
     </div>
   </div>
 </template>
