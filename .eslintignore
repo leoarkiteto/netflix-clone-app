@@ -1,0 +1,6 @@
+vitest.config.ts
+vite.config.ts
+postcss.config.cjs
+tailwind.config.cjs
+env.d.ts
+.prettierrc.cjs
